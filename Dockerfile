@@ -40,3 +40,4 @@ RUN helm init --client-only
 RUN mkdir /tmp
 RUN helm plugin install https://github.com/databus23/helm-diff
 RUN helm plugin install https://github.com/viglesiasce/helm-gcs.git
+RUN apk add -U make
